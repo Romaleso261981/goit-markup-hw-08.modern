@@ -1,0 +1,121 @@
+/* footer */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: $bg-section;
+}
+
+
+
+.footer__address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__link {
+    display: block;
+    margin-top: 9px;
+}
+
+.footer__our-location {
+    color: $text-white;
+}
+
+.footer__heading {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+
+
+.footer__wrapper {
+@media screen and (max-width: 1199px){
+    text-align: center;
+
+}
+
+@media screen and (min-width: 768px) {    
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+.footer__info {
+    min-width: 232px;
+@media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+}
+@media screen and (min-width: 768px){
+    margin-right: 165px;
+}
+@media screen and (min-width: 1200px) {
+    margin-right: 70px;
+}
+}
+
+
+.footer__socials {
+@media screen and (max-width: 1199px){
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+        margin-right: 93px;
+    }
+}
+
+.subscription__field{
+@media screen and (min-width: 1200px) {
+    display: inline-flex;
+    align-items: stretch;
+}
+}
+
+.subscription__input {
+    display: inline-block;
+    height: 50px;
+    background-color: inherit;
+    padding: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    min-width: 100%;
+    margin-bottom:20px;
+@media screen and (min-width: 768px) {
+    min-width: 450px;
+    }
+@media screen and (min-width: 1200px){
+    margin-bottom: 0;
+    min-width: 353px;
+}
+
+}
+
+.subscription__input:focus-within {
+    outline: none;
+}
+
+.subscription__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+@media screen and (min-width: 1200px){
+    margin-left: 12px;
+}
+}
+
+.subscription__btn-icon {
+    margin-left: 10px;
+}
